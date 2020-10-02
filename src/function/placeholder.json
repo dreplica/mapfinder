@@ -1,0 +1,7 @@
+
+    {
+        "IP ADDRESS":{"name":"ip","value":""},
+        "LOCATION":{"name":"location.city","value":""},
+        "TIMEZONE":{"name":"timezone","value":""},
+        "ISP":{"name":"isp","value":""}
+    }
