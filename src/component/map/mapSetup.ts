@@ -6,9 +6,6 @@ export interface GEO extends Pick<Coordinates,"latitude" | "longitude">{
 }
 
 export default async function mapSetup(geol:Omit<GEO, "error">){
-console.log("nfnn")
-
-
 
     Mapboxgl.accessToken = process.env.REACT_APP_MAPBOX as string;
             const map = await new Mapboxgl.Map({
