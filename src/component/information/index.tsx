@@ -18,7 +18,7 @@ export default function Info(props: iProps){
             text: props.text,
             details: props.details
         })
-    }, [])
+    }, [props])
 
     return <Container>
         <Text style={{fontSize:15, color:"darkgrey"}}>{state.details}</Text>
